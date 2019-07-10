@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tourist_app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.tourist_app.Form1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Form2"
+            android:label="@string/title_activity_form2" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Form3"
+            android:label="@string/title_activity_form3" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Chta"
+            android:label="@string/title_activity_chta" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Form4"
+            android:label="@string/title_activity_form4" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Form5"
+            android:label="@string/title_activity_form5" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Meena"
+            android:label="@string/title_activity_meena" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Mettu"
+            android:label="@string/title_activity_mettu" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Athi"
+            android:label="@string/title_activity_athi" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Padmana"
+            android:label="@string/title_activity_padmana" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Topst"
+            android:label="@string/title_activity_topst" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Benga"
+            android:label="@string/title_activity_benga" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Mysore"
+            android:label="@string/title_activity_mysore" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Murdesh"
+            android:label="@string/title_activity_murdesh" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Mainactivity1"
+            android:label="@string/title_activity_mainactivity1" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.AP"
+            android:label="@string/title_activity_ap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Vizag"
+            android:label="@string/title_activity_vizag" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Vizagmap"
+            android:label="@string/title_activity_vizagmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Vijayawada"
+            android:label="@string/title_activity_vijayawada" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Vijayawadamap"
+            android:label="@string/title_activity_vijayawadamap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Tpt"
+            android:label="@string/title_activity_tpt" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Tptmap"
+            android:label="@string/title_activity_tptmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Telangana"
+            android:label="@string/title_activity_telangana" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Hyd"
+            android:label="@string/title_activity_hyd" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Hydmap"
+            android:label="@string/title_activity_hydmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Warangal"
+            android:label="@string/title_activity_warangal" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Warangalmap"
+            android:label="@string/title_activity_warangalmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Badrachalam"
+            android:label="@string/title_activity_badrachalam" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Badrachalammap"
+            android:label="@string/title_activity_badrachalammap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Mysoremap"
+            android:label="@string/title_activity_mysoremap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Murdeshmap"
+            android:label="@string/title_activity_murdeshmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Bengamap"
+            android:label="@string/title_activity_bengamap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Athimap"
+            android:label="@string/title_activity_athimap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Chtamap"
+            android:label="@string/title_activity_chtamap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Mettumap"
+            android:label="@string/title_activity_mettumap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Padmanamap"
+            android:label="@string/title_activity_padmanamap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Maha"
+            android:label="@string/title_activity_maha" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Aurangabad"
+            android:label="@string/title_activity_aurangabad" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Aurangabadmap"
+            android:label="@string/title_activity_aurangabadmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Mahabaleshwar"
+            android:label="@string/title_activity_mahabaleshwar" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Mahabaleshwarmap"
+            android:label="@string/title_activity_mahabaleshwarmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Mumbai"
+            android:label="@string/title_activity_mumbai" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Mumbaimap"
+            android:label="@string/title_activity_mumbaimap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Jammu"
+            android:label="@string/title_activity_jammu" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Srinagar"
+            android:label="@string/title_activity_srinagar" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Srinagarmap"
+            android:label="@string/title_activity_srinagarmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Srimap"
+            android:label="@string/title_activity_srimap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Gulmarg"
+            android:label="@string/title_activity_gulmarg" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Gulmargmap"
+            android:label="@string/title_activity_gulmargmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Jammumap"
+            android:label="@string/title_activity_jammumap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Pangong"
+            android:label="@string/title_activity_pangong" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Pangongmap"
+            android:label="@string/title_activity_pangongmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Gujarat"
+            android:label="@string/title_activity_gujarat" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.White"
+            android:label="@string/title_activity_white" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Whitemap"
+            android:label="@string/title_activity_whitemap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Shatrunjaya"
+            android:label="@string/title_activity_shatrunjaya" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Greatrann"
+            android:label="@string/title_activity_greatrann" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Uttar"
+            android:label="@string/title_activity_uttar" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Agra"
+            android:label="@string/title_activity_agra" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Lucknow"
+            android:label="@string/title_activity_lucknow" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Varanasi"
+            android:label="@string/title_activity_varanasi" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Rajasthan"
+            android:label="@string/title_activity_rajasthan" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Jaipur"
+            android:label="@string/title_activity_jaipur" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Udaipur"
+            android:label="@string/title_activity_udaipur" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Jodhapur"
+            android:label="@string/title_activity_jodhapur" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Orrisa"
+            android:label="@string/title_activity_orrisa" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Rajamap"
+            android:label="@string/title_activity_rajamap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Bhubaneswar"
+            android:label="@string/title_activity_bhubaneswar" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Puri"
+            android:label="@string/title_activity_puri" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Orrisamap"
+            android:label="@string/title_activity_orrisamap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Assam"
+            android:label="@string/title_activity_assam" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Guwa"
+            android:label="@string/title_activity_guwa" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Sonitpur"
+            android:label="@string/title_activity_sonitpur" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Assammap"
+            android:label="@string/title_activity_assammap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Apmap"
+            android:label="@string/title_activity_apmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Mahamap"
+            android:label="@string/title_activity_mahamap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Telanaganamap"
+            android:label="@string/title_activity_telanaganamap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Bangmap"
+            android:label="@string/title_activity_bangmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Tamilmap"
+            android:label="@string/title_activity_tamilmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Uttarmap"
+            android:label="@string/title_activity_uttarmap" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Kerala"
+            android:label="@string/title_activity_kerala" >
+        </activity>
+        <activity
+            android:name="com.example.tourist_app.Indiamap"
+            android:label="@string/title_activity_indiamap" >
+        </activity>
+    </application>
+
+</manifest>
